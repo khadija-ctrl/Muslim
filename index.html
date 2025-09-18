@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Découvrir l'Islam</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #4caf50;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        nav {
+            background-color: #2e7d32;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section h2 {
+            color: #2e7d32;
+            margin-bottom: 20px;
+        }
+
+        .image-container {
+            text-align: center;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #4caf50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        audio {
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Découvrir l'Islam</h1>
+        <p>Une introduction à l'histoire, la foi et la culture de l'Islam</p>
+    </header>
+
+    <nav>
+        <a href="#histoire">Histoire</a>
+        <a href="#croyances">Croyances</a>
+        <a href="#pratiques">Pratiques</a>
+    </nav>
+
+    <section id="histoire">
+        <h2>Histoire de l'Islam</h2>
+        <p>L'Islam est apparu au 7ème siècle en Arabie avec la révélation reçue par le prophète Mahomet. Il s'est rapidement répandu au Moyen-Orient, en Afrique du Nord et en Asie.</p>
+        <div class="image-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Kaaba_Masjid_al-Haram.jpg" alt="La Kaaba à La Mecque">
+        </div>
+    </section>
+
+    <section id="croyances">
+        <h2>Les Croyances</h2>
+        <p>Les musulmans croient en un Dieu unique, Allah, et suivent les enseignements du prophète Mahomet consignés dans le Coran. Les cinq piliers de l'Islam guident la vie spirituelle et morale des croyants.</p>
+        <div class="image-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Quran_cover.jpg" alt="Le Coran">
+        </div>
+    </section>
+
+    <section id="pratiques">
+        <h2>Les Pratiques</h2>
+        <p>Les pratiques incluent la prière cinq fois par jour, le jeûne pendant le Ramadan, l’aumône aux nécessiteux, le pèlerinage à La Mecque et la profession de foi.</p>
+        <div class="image-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Muslims_praying.jpg" alt="Musulmans en prière">
+        </div>
+
+        <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Azan_Al-Masjid_al-Haram_Makkah.ogg" type="audio/ogg">
+            Votre navigateur ne supporte pas l'élément audio.
+        </audio>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Découvrir l'Islam. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
+python -m http.server 8000
